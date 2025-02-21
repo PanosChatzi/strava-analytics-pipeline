@@ -8,6 +8,7 @@ from strava_api.fetch_activities import fetch_single_activity
 from strava_api.transform_data import transform_data
 from typing import Dict, Any, Optional
 from datetime import datetime
+import uvicorn
 
 # Load environment variables
 load_dotenv()
